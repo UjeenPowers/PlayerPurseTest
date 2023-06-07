@@ -36,11 +36,19 @@ To start using PlayerPurseTest, follow these steps:
     void SetEntry(string id, int value); //Create or rewrite an entry with specified id
 }
 
-## Configuring the plugin
-In order to change the method of saving purse data you should change the StoreMethod in PlayerPurseSettings.
-If you choose the simple method of instantiation the appropriate scriptable object can be found by following the link in prefab.
-There are 4 possible store methods predefined currently:
-    1. PlayerPrefs - saves the data to player prefs, this method have some limits that are defined by the used device. If a large set of data is planned to be stored i recommend to use one of the latter methods.
-    2. JsonText - saves the data as a readable .txt file.
-    3. JsonBin - saves the data as a binary file.
-    4. Server - not yet implemented, supposed to send data to a server.
+##Configuring the Plugin
+To change the method of saving purse data, you can modify the StoreMethod in PlayerPurseSettings. Follow the steps below:
+
+Open the PlayerPurseSettings scriptable object.
+Locate the StoreMethod field and choose the desired method of storing purse data.
+There are four predefined store methods available:
+
+PlayerPrefs: This method saves the data to the Unity PlayerPrefs system. Please note that this method has limitations defined by the device being used. If you plan to store a large set of data, it is recommended to use one of the latter methods.
+
+JsonText: This method saves the data as a readable .txt file.
+
+JsonBin: This method saves the data as a binary file.
+
+Server: This method is not yet implemented but is intended to send data to a server.
+
+If you choose the simple method of instantiation, you can find the appropriate scriptable object by following the link provided in the prefab.
