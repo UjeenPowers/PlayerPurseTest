@@ -24,9 +24,7 @@ To start using PlayerPurseTest, follow these steps:
 
 2. The main interface for interacting with the PlayerPurseTest plugin is defined as follows:
 
-public interface IPlayerPurse
 {
-    void Initialize(PlayerPurseSettings playerPurseSettings);
     
     void SaveState(); //Saves current state of a purse using selected method form settings
     
