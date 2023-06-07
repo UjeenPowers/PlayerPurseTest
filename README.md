@@ -36,7 +36,7 @@ To start using PlayerPurseTest, follow these steps:
     void SetEntry(string id, int value); //Create or rewrite an entry with specified id
 }
 
-##Configuring the Plugin
+## Configuring the Plugin
 To change the method of saving purse data, you can modify the StoreMethod in PlayerPurseSettings. Follow the steps below:
 
 Open the PlayerPurseSettings scriptable object.
