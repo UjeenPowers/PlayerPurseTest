@@ -43,12 +43,12 @@ Open the PlayerPurseSettings scriptable object.
 Locate the StoreMethod field and choose the desired method of storing purse data.
 There are four predefined store methods available:
 
-PlayerPrefs: This method saves the data to the Unity PlayerPrefs system. Please note that this method has limitations defined by the device being used. If you plan to store a large set of data, it is recommended to use one of the latter methods.
+1. PlayerPrefs: This method saves the data to the Unity PlayerPrefs system. Please note that this method has limitations defined by the device being used. If you plan to store a large set of data, it is recommended to use one of the latter methods.
 
-JsonText: This method saves the data as a readable .txt file.
+2. JsonText: This method saves the data as a readable .txt file.
 
-JsonBin: This method saves the data as a binary file.
+3. JsonBin: This method saves the data as a binary file.
 
-Server: This method is not yet implemented but is intended to send data to a server.
+4. Server: This method is not yet implemented but is intended to send data to a server.
 
 If you choose the simple method of instantiation, you can find the appropriate scriptable object by following the link provided in the prefab.
