@@ -51,4 +51,4 @@ There are four predefined store methods available:
 
 4. Server: This method is not yet implemented but is intended to send data to a server.
 
-If you choose the simple method of instantiation, you can find the appropriate scriptable object by following the link provided in the prefab.
+If you have choosen the simple method of instantiation, you can find the appropriate scriptable object by following the link provided in the prefab.
